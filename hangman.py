@@ -13,7 +13,7 @@ db = SQLAlchemy(app)
 # Model
 
 def random_pk():
-    return random.randint(1e9, 1e10)
+    return random.randint(1e5,1e6)
 
 def random_word():
     words = [line.strip() for line in open('words.txt') if len(line) > 10]
