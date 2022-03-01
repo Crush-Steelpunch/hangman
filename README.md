@@ -30,3 +30,16 @@ Create dabase with:
 * Jinja2: http://jinja.pocoo.org/docs/dev/
 * Bootstrap: http://getbootstrap.com
 * JQuery: https://jquery.com
+
+
+# Class deplyment
+
+change sqlite to mysql
+create the mysql db using the suggested method
+use a docker volume to store db
+build an image for hangman
+docker compose
+- hangman service
+- db service with a vol
+- nginx proxy
+
