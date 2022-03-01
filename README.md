@@ -43,3 +43,12 @@ docker compose
 - db service with a vol
 - nginx proxy
 
+
+# setting up the db
+
+- On first run of the db you need to create the hangman db in the container
+```bash
+docker-compose exec mysql mysql -u root -p
+CREATE DATABASE hangman;
+exit;
+```
