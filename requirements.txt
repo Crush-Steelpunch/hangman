@@ -1,4 +1,3 @@
-PyMySQL
-Flask
-Flask-SQLAlchemy
+Flask==2.2.2
+Flask-SQLAlchemy==2.5.1
 gunicorn
