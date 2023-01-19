@@ -7,7 +7,8 @@ app = flask.Flask(__name__)
 
 # Database
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:password123@mysql:3306/hangman'
+#app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:password123@mysql:3306/hangman'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///hang.db'
 db = SQLAlchemy(app)
 
 # Model
